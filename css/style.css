@@ -556,7 +556,6 @@ ul.social-network {
 }
 .sub-footer {
   background: var(--primary-color);
-  padding: 30px;
 }
 
 .footer-half {
@@ -667,4 +666,8 @@ ul.social-network li a {
 
 .align-center {
 	align-items: center;
+}
+
+.p-5 {
+  padding: 1rem;
 }
