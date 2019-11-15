@@ -652,7 +652,7 @@ ul.social-network li a {
 		padding: 8rem 6rem;
 	}
 
-	#services,#contact {
+	.slider,#services,#contact {
 		padding: 8rem 0rem;
 	}
 }
