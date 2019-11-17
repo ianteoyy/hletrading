@@ -120,6 +120,7 @@ a:hover {
   .navbar-brand {
     margin-top: 0;
     padding-top: 0;
+    width: fit-content;
   }
 }
 .menu {
