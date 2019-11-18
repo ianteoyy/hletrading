@@ -124,6 +124,13 @@ a:hover {
     width: fit-content;
   }
 }
+
+.navbar-fixed-top {
+  width: 100%;
+  right: unset !important;
+  left: unset;
+}
+
 .menu {
   font-size: 12px;
   float: right;
