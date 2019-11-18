@@ -131,7 +131,7 @@ a:hover {
 }
 
 .navbar-fixed-top {
-  width: 100%;
+  width: 100% !important;
   right: unset !important;
   left: unset;
 }
@@ -661,8 +661,8 @@ ul.social-network li a {
 
 @media (max-width: 620px) {
 	#about {
-		margin: -7rem;
-		padding: 8rem 6rem;
+		margin-top: -7rem;
+		padding: 8rem 0rem;
 	}
 
 	.slider,#services,#contact {
