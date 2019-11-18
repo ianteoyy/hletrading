@@ -219,7 +219,7 @@ a:hover {
   height: 50px;
   padding: 8px;
   position: absolute;
-  top: 50%;
+  top: calc(50% - 25px);
   width: 50px;
   color: #fff;
   background: var(--primary-color);
@@ -246,6 +246,12 @@ a:hover {
 #carousel-slider .carousel-control.left,
 #carousel-slider .carousel-control.right {
   background: none;
+}
+
+.carousel-inner {
+  width: max-content;
+  max-width: 100%;
+  padding: 0;
 }
 
 /*===========================
