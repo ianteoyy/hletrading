@@ -104,6 +104,8 @@ a:hover {
 .navigation {
   background-color: #fff;
   padding: 0;
+  width: 100%;
+  padding: 0 2rem;
 }
 
 .navbar-brand h1 {
