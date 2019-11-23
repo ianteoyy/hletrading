@@ -45,11 +45,11 @@
             <div class="menu">
               <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation">
-                  <a href="#home" class="active">Home</a>
+                  <a href="#" class="active" data-toggle="collapse" data-target=".navbar-collapse.collapse">Home</a>
                 </li>
-                <li role="presentation"><a href="#about">About Us</a></li>
-                <li role="presentation"><a href="#services">Services</a></li>
-                <li role="presentation"><a href="#contact">Contact</a></li>
+                <li role="presentation"><a href="#about" data-toggle="collapse" data-target=".navbar-collapse.collapse">About Us</a></li>
+                <li role="presentation"><a href="#services" data-toggle="collapse" data-target=".navbar-collapse.collapse">Services</a></li>
+                <li role="presentation"><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse.collapse">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -63,10 +63,10 @@
         <div id="about-slider">
           <div id="carousel-slider" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
-            <ol class="carousel-indicators visible-xs">
+            <ol class="carousel-indicators visible-sm">
               <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
               <li data-target="#carousel-slider" data-slide-to="1"></li>
-              <li data-target="#carousel-slider" data-slide-to="2"></li>
+              <!-- <li data-target="#carousel-slider" data-slide-to="2"></li> -->
             </ol>
 
             <div class="carousel-inner container">
@@ -76,9 +76,9 @@
               <div class="item">
                 <img src="img/2.jpg" class="img-responsive" alt="" />
               </div>
-              <div class="item">
+              <!-- <div class="item">
                 <img src="img/3.jpg" class="img-responsive" alt="" />
-              </div>
+              </div> -->
             </div>
 
             <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
@@ -177,7 +177,8 @@
     <div class="container-fluid">
       <div class="center">
         <h2>Contact us</h2>
-        <div class="col-lg-7">
+        <hr>
+        <div id="google-map" class="col-lg-7">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452"
             width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -193,9 +194,7 @@
                   <li>Public holidays: 0000-2400</li>
                 </ul>
               </div>
-              <p>HLE Trading is tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum mas justo
-                sitters.
-              </p>
+              <p>HLE Trading is tellus ac cursus commodo, mauesris condime ntum nibh</p>
               <h4>Contact Us</h4>
               <div class="contact-info">
                 <ul>
